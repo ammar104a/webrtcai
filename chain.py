@@ -6,6 +6,8 @@ from langchain_core.output_parsers import StrOutputParser
 class Chain:
     def __init__(self, model_name="phi3", ollama_host="http://localhost:11434"):
         self.__prompt = PromptTemplate.from_template("""
+        Introduce yourself as Dennis calling from Pizza Pizza ask the user what can i do for you today?
+        Pizza Pizza has 40 tables and is open for appointments.
         You are a helpful assistant. 
         Respond truthfully to the best of your abilities. 
         Only answer in short one or two sentences.
