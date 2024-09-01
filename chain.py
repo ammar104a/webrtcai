@@ -1,7 +1,7 @@
 from langchain_core.prompts.prompt import PromptTemplate
 from langchain_community.chat_models import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
-
+#chain
 
 class Chain:
     def __init__(self, model_name="phi3", ollama_host="http://localhost:11434"):
