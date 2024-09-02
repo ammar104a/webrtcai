@@ -65,10 +65,10 @@ Audio Player: <audio id="remoteAudio"> is used to play back the synthesized resp
 
 
 ## Problems/Needed Features:
-### 1) (Problem) Audio Not Playing Back And Only Saving To Latest Directory:
+### 1) (Problem) Audio Not Playing Back And Only Saving To Latest Directory: JavaScript Issue
 Ensured that the bark_out.wav file is correctly generated and in a standard WAV format and verified that the WebRTC connection is properly established and that the audio stream is correctly linked to the audio element in the HTML But Audio Is still Not Playing.
-### 2) (Needed Feature) Eleven Labs Api Is Needed To Produce Ai Voices That Sound Human But Api Is Not Working Even Though Quota in Eleven Labs Account Is Going Up.
-### 3) (Needed Feature) Silence Detection, as user should be able to use this service like a call so the recording buttons should be removed and silence detetion should be added @Asim is working on this.
-### 4) (Needed Feature and Problem) Support For Multiple Connections) This feature shoul theoretically work as the code supports this but this is untested, I hosted this app on vercel, connection starts but getting an error.![image](https://github.com/user-attachments/assets/91d7ed5a-502c-4092-84d5-b90b4ed5a4bc)
-### 5) (Needed Feature) Custom Url Generation: This is low Priority as this functionality can be added to chain.py at any time and the Ai will say something like, "Hi im {{chosen Name}} from {{chosen Restaraunt/link}}, what can i do for you today?".
+### 2) (Needed Feature) Eleven Labs Api Is Needed To Produce Ai Voices That Sound Human But Api Is Not Working Even Though Quota in Eleven Labs Account Is Going Up. Python Issue
+### 3) (Needed Feature) Silence Detection, as user should be able to use this service like a call so the recording buttons should be removed and silence detetion should be added @Asim is working on this. Java Script Issue
+### 4) (Needed Feature and Problem) Support For Multiple Connections) This feature shoul theoretically work as the code supports this but this is untested, I hosted this app on vercel, connection starts but getting an error.![image](https://github.com/user-attachments/assets/91d7ed5a-502c-4092-84d5-b90b4ed5a4bc) JavaScript/WebRtC Code Supports It But Untested
+### 5) (Needed Feature) Custom Url Generation: This is low Priority as this functionality can be added to chain.py at any time and the Ai will say something like, "Hi im {{chosen Name}} from {{chosen Restaraunt/link}}, what can i do for you today?". Python/JS
 
